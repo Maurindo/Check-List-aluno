@@ -1,0 +1,10 @@
+criando evento
+
+vermelho = 00
+amarelo = 0,45
+verde = 0,9
+
+
+ao clicar no botão uma borda de cor diferente do botão vai contorna-lo mostrando que ele foi selecionado
+
+dependendo da cor selecionado uma valor deve ser armazenado em uma lista para depois ser somado, mostrando o aproveitamento do aluno nas disciplina. 

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src='https://cdn.plot.ly/plotly-2.26.0.min.js'></script>
+    <script src="javascript.js" defer></script>
+    <title>CHECK LIST</title>
+</head>
+<body >
+    <h1>Check-List do Aluno</h1>
+
+    <form>
+        <label for="nomeAluno">Nome do Aluno</label><br>
+        <input type="text" id="nomeAluno" name="nomeAluno"><br>
+        <label for="nomeProf">Nome Professor</label><br>
+        <input type="text" id="nomeProf" name="nomeProf"><br>
+        <label for="turmaSerie">Turma</label><br>
+        <input type="text" id="turmaSerie" name="turmaSerie"><br>
+        <label for="insti">Instituição</label><br>
+        <input type="text" id="insti" name="insti"><br>
+        <div id="menuExemplo">
+            <button class="menu-red"></button>
+            <button class="menu-yellow"></button>
+            <button class="menu-green"></button>
+        </div>
+
+    </form>
+
+<h1>PORTUGUÊS</h1>
+<div id="fundo">
+    <main>
+
+        <p>RECONHECE LETRAS
+            <div id="btn">
+                <button id="bt-red-0" ></button>
+                <button id="bt-yellow-0" ></button>
+                <button id="bt-green-0"></button>
+            </div>
+        </p>
+
+        <p>CORRESPONDE LETRAS/SOM 
+            <div id="btn">
+                <button id="bt-red-1"></button>
+                <button id="bt-yellow-1"></button>
+                <button id="bt-green-1"></button>
+            </div>
+        </p>
+
+        <p>CONSCIÊNCIA FONOLÓGICA 
+            <div id="btn">
+                <button id="bt-red-2"></button>
+                <button id="bt-yellow-2"></button>
+                <button id="bt-green-2"></button>
+            </div>
+        </p>
+
+        <p>LEITURA DE PALAVRA
+            <div id="btn">
+                <button id="bt-red-3"></button>
+                <button id="bt-yellow-3"></button>
+                <button id="bt-green-3"></button>
+            </div>
+        </p>
+
+        <p>COMPREENSÃO DE TEXO
+            <div id="btn">
+                <button id="bt-red-4"></button>
+                <button id="bt-yellow-4"></button>
+                <button id="bt-green-4"></button>
+            </div>
+        </p>
+
+        <p>FLUÊNCIA NA LEITURA
+            <div id="btn">
+                <button id="bt-red-5"></button>
+                <button id="bt-yellow-5"></button>
+                <button id="bt-green-5"></button>
+            </div>
+        </p>
+
+        <p>COMPREENSÃO AVANÇADA 
+            <div id="btn">
+                <button id="bt-red-6"></button>
+                <button id="bt-yellow-6"></button>
+                <button id="bt-green-6"></button>
+            </div>
+        </p>
+
+        <p>AUTONOMIA NA ESCRITA
+            <div id="btn">
+                <button id="bt-red-7"></button>
+                <button id="bt-yellow-7"></button>
+                <button id="bt-green-7"></button>
+            </div>
+        </p>
+    </main>
+</div>
+
+<h1>MATEMÁTICA</h1>
+<div id="fundo">
+    <main>
+
+        <p>RECONHECE NÚMEROS
+            <div id="btn">
+                <button id="btm-red-0" ></button>
+                <button id="btm-yellow-0" ></button>
+                <button id="btm-green-0"></button>
+            </div>
+        </p>
+
+        <p>SEQUÊNCIA NÚMERICA
+            <div id="btn">
+                <button id="btm-red-1"></button>
+                <button id="btm-yellow-1"></button>
+                <button id="btm-green-1"></button>
+            </div>
+        </p>
+
+        <p>CONTAGEM INTERCALADA
+            <div id="btn">
+                <button id="btm-red-2"></button>
+                <button id="btm-yellow-2"></button>
+                <button id="btm-green-2"></button>
+            </div>
+        </p>
+
+        <p>LEITURA DE TABELA E GRÁFICOS
+            <div id="btn">
+                <button id="btm-red-3"></button>
+                <button id="btm-yellow-3"></button>
+                <button id="btm-green-3"></button>
+            </div>
+        </p>
+
+        <p>ADIÇÃO E SUBTRAÇÃO SIMPLES
+            <div id="btn">
+                <button id="btm-red-4"></button>
+                <button id="btm-yellow-4"></button>
+                <button id="btm-green-4"></button>
+            </div>
+        </p>
+
+        <p>ADIÇÃO E SUBTRAÇÃO COM RESERVA
+            <div id="btn">
+                <button id="btm-red-5"></button>
+                <button id="btm-yellow-5"></button>
+                <button id="btm-green-5"></button>
+            </div>
+        </p>
+
+        <p>SITUAÇÃO PROBLEMA ADIÇÃO E SUBTRAÇÃO
+            <div id="btn">
+                <button id="btm-red-6"></button>
+                <button id="btm-yellow-6"></button>
+                <button id="btm-green-6"></button>
+            </div>
+        </p>
+
+        <p>MULTIPLICAÇÃO SIMPLES
+            <div id="btn">
+                <button id="btm-red-7"></button>
+                <button id="btm-yellow-7"></button>
+                <button id="btm-green-7"></button>
+            </div>
+        </p>
+    </main>
+</div>
+
+<div>
+    <button id="gerardados">Valor</button>
+    
+</div>
+<div id="corpoGrfico" style="width: auto;">
+    <h2 id="saidaAluno"></h2>
+    <h3 id="saidaProf"></h3>
+    <h3 id="saidaTurmaSerie"></h3>
+    <h3 id="saidaInsti"></h3>
+    
+</div>
+<div id="meuGrafico"></div>
+
+</body>
+</html>

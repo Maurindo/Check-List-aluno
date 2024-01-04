@@ -1,0 +1,87 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-column: auto;
+    justify-items: center;
+    background-color: #abf1f3;
+    
+}
+
+.menu-red{
+    width: 55px;
+    height: 55px;
+    border-radius: 45px;
+    background-color: red;
+}
+.menu-yellow{
+    width: 55px;
+    height: 55px;
+    border-radius: 45px;
+    background-color: yellow;
+}
+.menu-green{
+    width: 55px;
+    height: 55px;
+    border-radius: 45px;
+    background-color: green;
+    text-align: center;
+}
+
+#gerardados{
+    width: 60px;
+    border: 3px solid #dde74a;
+    
+}
+
+button{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    
+}
+
+
+/*Centralizando as perguntas e deixando responsivo*/
+main{
+    display: grid;
+    justify-items: center;   
+    
+}
+/*deixando um espaço no começo da div fundo para deixar dentro da moldura*/
+main{
+    padding: 58px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+label{
+    padding: 20px;
+
+}
+
+#menuExemplo{
+    text-align: center;
+}
+
+#fundo{
+    display: grid;
+    justify-items: center;
+    
+    background-image: url(imagens/plano-de-fundo-5.png);
+    height: auto;
+    width: 829px;
+    
+}
+
